@@ -2,7 +2,8 @@ import SushiPic from '../images/image_sushi.jpg'
 import ButterChickenPic from '../images/image_butterchicken.jpeg'
 import TacoPic from '../images/image_taco.jpg'
 import PizzaPic from '../images/image_pizza.png'
-import PhoPic from '../images/image_pho.png'
+import SouthIndianThaliPic from '../images/image_southIndian.png'
+import NorthIndianThaliPic from '../images/image_northIndian.png'
 // CuisineList.js
 const cuisineData = [
   {
@@ -43,12 +44,21 @@ const cuisineData = [
   },
   {
     id: 5,
-    name: 'Pho',
+    name: 'North Indian Thali',
     type: 'Main Course',
-    region: 'Vietnamese',
+    region: 'Northern India',
     spiceLevel: 'Medium',
-    image: `${PhoPic}`,
+    image: `${NorthIndianThaliPic}`,
     price: '430.00'
+  },
+  {
+    id: 6,
+    name: 'South Indian Thali',
+    type: 'Main Course',
+    region: 'Southern India',
+    spiceLevel: 'Low',
+    image: `${SouthIndianThaliPic}`,
+    price: '320.00'
   }
 ];
 
